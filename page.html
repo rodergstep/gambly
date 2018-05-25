@@ -67,7 +67,7 @@
 <svg class="icon icon-balance"><use xlink:href="img/sprite.svg#icon-balance"></use></svg>
 </span> <span>675.638</span> </div>
         </div> <button class="btn btn--balance">
-    <span>ADD BALANCE</span>
+    <span>ADD <span class="hidden-modile">BALANCE</span></span>
     
 <svg class="icon icon-plus"><use xlink:href="img/sprite.svg#icon-plus"></use></svg>
 
@@ -77,7 +77,7 @@
       <!-- begin main  -->
       <main class="main" style="background-image: url('img/content-bg.jpg')">
         <!-- begin sidebar -->
-        <aside class="sidebar sidebar--toplist">
+        <aside class="sidebar sidebar--toplist" id="sidebar-left">
           <div class="sidebar__row topheader">
             <h4 class="mb-0">Top 10 players</h4> <a href="#" class="sidebar__row-item ml-auto btn--update"><span class="mr-2">Updsate</span>
 <svg class="icon icon-update"><use xlink:href="img/sprite.svg#icon-update"></use></svg>
@@ -186,6 +186,9 @@
           </div>
           <div class="sidebar__row sidebar__stores"> <img src="img/app-store.svg" alt="App Store" class="sidebar__store"> <img src="img/google-play.png" alt="Google Play" class="sidebar__store"> </div>
         </aside>
+        <a href="#" id="" class="touch-menu touch-menu-left">
+          <div id="nav-icon1" class="nav-icon1"> <span></span> <span></span> <span></span> </div>
+        </a>
         <!-- end sidebar -->
         <div class="rollers">
           <div class="rollers__cirlce"> <img src="img/circle.png" alt="" class=""> </div>
@@ -243,7 +246,7 @@
           </div>
         </div>
         <!-- begin sidebar -->
-        <aside class="sidebar" id="sidebar">
+        <aside class="sidebar" id="sidebar-right">
           <div class="sidebar__row"> <a href="#" class="sidebar__row-item active"><span class="nav-linkText">Chat</span></a> <a href="#" class="sidebar__row-item"><span class="nav-linkText">History</span></a> <a href="#" class="sidebar__row-item ml-auto"><img src="img/flags/eng.svg" class="select-flag" alt=""></a>            </div>
           <div class="sidebar__row sidebar__online">
             <div class="sidebar__row-item"> <svg class="icon icon-users"><use xlink:href="img/sprite.svg#icon-users"></use></svg> <span class="online__label">Online:</span> <span class="online__value">359 608</span> </div>
@@ -353,7 +356,7 @@
           </div>
         </aside>
         <a href="#" id="touch-menu">
-          <div id="nav-icon1"> <span></span> <span></span> <span></span> </div>
+          <div id="nav-icon1" class="nav-icon1"> <span></span> <span></span> <span></span> </div>
         </a>
         <!-- end sidebar -->
       </main>
